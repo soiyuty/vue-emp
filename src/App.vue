@@ -5,7 +5,7 @@ import { ref, provide } from 'vue'
 const themeColor = ref('#4f46e5')
 provide('themeColor', themeColor)
 </script>
-
+<button></button>
 <template>
   <div class="app-container">
     <!-- 页面切换动画 -->
