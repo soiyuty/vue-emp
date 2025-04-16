@@ -545,7 +545,7 @@ const updateEmp = async () => {
         ElMessage.error(res.msg)
       }
     }).catch(error => {
-      ElMessage.error("修改员工失败");
+      ElMessage.error("修改员工信息失败");
       console.error(error);
     })
 
