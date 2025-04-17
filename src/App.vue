@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, provide } from 'vue'
 
-// 提供主题颜色，可以在整个应用中统一使用
+//主题颜色
 const themeColor = ref('#4f46e5')
 provide('themeColor', themeColor)
 </script>
@@ -15,6 +15,7 @@ provide('themeColor', themeColor)
       </transition>
     </router-view>
   </div>
+  <button>hello</button>
 </template>
 
 <style>
