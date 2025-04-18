@@ -581,16 +581,16 @@ const getEmp=()=>{
 
 const thisTime=ref('');
 
-//初始化请求现在时间
-setInterval(()=>{
-  axios.get("http://localhost/getTime").then((res) => {
-    if (res.data.length>0) {
-      thisTime.value=res.data;
-    }else {
-      thisTime.value=String(new Date());
-    }
-  })
-},1000)
+// //初始化请求现在时间
+// setInterval(()=>{
+//   axios.get("http://localhost/getTime").then((res) => {
+//     if (res.data.length>0) {
+//       thisTime.value=res.data;
+//     }else {
+//       thisTime.value=String(new Date());
+//     }
+//   })
+// },1000)
 
 </script>
 
